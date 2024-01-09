@@ -24,7 +24,7 @@ export function Hero() {
   });
   const { scrollYProgress: scrollYProgress3 } = useScroll({
     target: section3Ref,
-    offset: ['start end', '500px end'],
+    offset: ['300px end', '400px end'],
   });
 
   return (
@@ -158,7 +158,7 @@ export function Hero() {
             <div className='left w-[50%] text-white'>
               <div
                 ref={section1Ref}
-                className='h-screen w-full flex flex-col justify-center px-16'
+                className='h-screen w-full flex flex-col justify-start pt-[150px] px-16'
               >
                 <h1 className='text-[48px] font-bold'>
                   Intelligent Email Shopping Aligning with Your Needs
@@ -171,7 +171,7 @@ export function Hero() {
               </div>
               <div
                 ref={section2Ref}
-                className='h-screen w-full flex flex-col justify-center px-16'
+                className='h-screen w-full flex flex-col justify-start pt-[150px] px-16'
               >
                 <h1 className='text-[48px] font-bold'>
                   Capture Reviews, Enhance user Experience
@@ -184,7 +184,7 @@ export function Hero() {
               </div>
               <div
                 ref={section3Ref}
-                className='h-screen w-full flex flex-col justify-center px-16'
+                className='h-screen w-full flex flex-col justify-start pt-[150px] px-16'
               >
                 <h1 className='text-[48px] font-bold'>
                   Boost Engagement, Embedded Polls for Insights.
