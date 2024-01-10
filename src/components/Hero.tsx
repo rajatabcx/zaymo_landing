@@ -197,23 +197,28 @@ export function Hero() {
               </div>
             </div>
             <div className='right w-[30%] sticky top-0 h-screen left-0'>
+              <img
+                src='https://zaymo.com/build/_assets/iphone-mockup-S4ASINSE.png'
+                alt='mobile'
+                className='w-full h-[90%] object-contain absolute top-[5%] z-40'
+              />
               <motion.img
                 src='https://zaymo.com/build/_assets/featureShopInEmail-XWQK3MDJ.gif'
                 alt='demo1'
-                className='w-full h-[80%] object-cover absolute top-[10%] '
+                className='w-full h-[86%] object-contain absolute top-[7.05%]'
                 style={{ opacity: scrollYProgress1 }}
               />
               <motion.img
                 src='https://zaymo.com/build/_assets/featureReview-P3N27LUJ.gif'
                 alt='demo2'
-                className='w-full h-[80%] object-cover absolute top-[10%] '
+                className='w-full h-[86%] object-contain absolute top-[7%]'
                 style={{ opacity: scrollYProgress2 }}
               />
               <motion.img
                 style={{ opacity: scrollYProgress3 }}
                 src='https://zaymo.com/build/_assets/featurePoll-DM5SCN25.gif'
                 alt='demo3'
-                className='w-full h-[80%] object-cover absolute top-[10%] z-10'
+                className='w-full h-[86%] object-contain absolute top-[7%]'
               />
             </div>
           </div>
